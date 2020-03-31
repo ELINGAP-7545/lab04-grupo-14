@@ -6,7 +6,7 @@ always @ (*) begin
       4'b0000: seg = 7'b1111110; //cero 
 		4'b0001: seg = 7'b0110000; //uno
 		4'b0010: seg = 7'b1101101; //dos
-		4'b0011: seg = 7'b1111001: //tres
+		4'b0011: seg = 7'b1111001; //tres
 		4'b0100: seg = 7'b0110011; //cuatro
 		4'b0101: seg = 7'b1011011; //cinco
 		4'b0110: seg = 7'b0011111; //seis
