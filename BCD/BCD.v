@@ -1,5 +1,6 @@
-module BCD (input [3:0] bcd, output reg [6:0] seg);
+module BCD (input [3:0] bcd, output reg [6:0] seg, output [3:0] An);
 
+assign An = 4'b1110;
 
 always @ (*) begin 
   case(bcd)                      

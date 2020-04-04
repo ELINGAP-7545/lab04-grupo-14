@@ -1,0 +1,55 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/paula nikol/Documents/GitHub/lab04-grupo-14/BCD/simulation/modelsim
+vBCD
+Z1 !s110 1585960948
+!i10b 1
+!s100 FG:J_MUago4>2dgfH]=je0
+I;k<i@?E@NL;?B1DA5[nlZ2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1585959747
+8C:/Users/paula nikol/Documents/GitHub/lab04-grupo-14/BCD/BCD.v
+FC:/Users/paula nikol/Documents/GitHub/lab04-grupo-14/BCD/BCD.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1585960947.000000
+!s107 C:/Users/paula nikol/Documents/GitHub/lab04-grupo-14/BCD/BCD.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/paula nikol/Documents/GitHub/lab04-grupo-14/BCD|C:/Users/paula nikol/Documents/GitHub/lab04-grupo-14/BCD/BCD.v|
+!i113 1
+Z4 o-vlog01compat -work work
+Z5 !s92 -vlog01compat -work work {+incdir+C:/Users/paula nikol/Documents/GitHub/lab04-grupo-14/BCD}
+Z6 tCvgOpt 0
+n@b@c@d
+vtestbench
+R1
+!i10b 1
+!s100 onDiVLFIcb@;UbI;Y<>8n0
+IbWFn=OoBLRg?SI@KCe80d3
+R2
+R0
+w1585960916
+8C:/Users/paula nikol/Documents/GitHub/lab04-grupo-14/BCD/testbench.v
+FC:/Users/paula nikol/Documents/GitHub/lab04-grupo-14/BCD/testbench.v
+L0 3
+R3
+r1
+!s85 0
+31
+!s108 1585960948.000000
+!s107 C:/Users/paula nikol/Documents/GitHub/lab04-grupo-14/BCD/testbench.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/paula nikol/Documents/GitHub/lab04-grupo-14/BCD|C:/Users/paula nikol/Documents/GitHub/lab04-grupo-14/BCD/testbench.v|
+!i113 1
+R4
+R5
+R6

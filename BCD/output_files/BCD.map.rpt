@@ -1,5 +1,5 @@
-Analysis & Synthesis report for BCD
-Mon Mar 30 20:18:48 2020
+Analysis & Elaboration report for BCD
+Fri Apr 03 19:36:19 2020
 Quartus Prime Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition
 
 
@@ -7,10 +7,10 @@ Quartus Prime Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition
 ; Table of Contents ;
 ---------------------
   1. Legal Notice
-  2. Analysis & Synthesis Summary
-  3. Analysis & Synthesis Settings
-  4. Parallel Compilation
-  5. Analysis & Synthesis Messages
+  2. Analysis & Elaboration Summary
+  3. Parallel Compilation
+  4. Analysis & Elaboration Settings
+  5. Analysis & Elaboration Messages
 
 
 
@@ -35,9 +35,9 @@ https://fpgasoftware.intel.com/eula.
 
 
 +----------------------------------------------------------------------------------+
-; Analysis & Synthesis Summary                                                     ;
+; Analysis & Elaboration Summary                                                   ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Failed - Mon Mar 30 20:18:48 2020           ;
+; Analysis & Elaboration Status      ; Successful - Fri Apr 03 19:36:19 2020       ;
 ; Quartus Prime Version              ; 19.1.0 Build 670 09/22/2019 SJ Lite Edition ;
 ; Revision Name                      ; BCD                                         ;
 ; Top-level Entity Name              ; BCD                                         ;
@@ -56,8 +56,24 @@ https://fpgasoftware.intel.com/eula.
 +------------------------------------+---------------------------------------------+
 
 
++------------------------------------------+
+; Parallel Compilation                     ;
++----------------------------+-------------+
+; Processors                 ; Number      ;
++----------------------------+-------------+
+; Number detected on machine ; 2           ;
+; Maximum allowed            ; 2           ;
+;                            ;             ;
+; Average used               ; 1.00        ;
+; Maximum used               ; 1           ;
+;                            ;             ;
+; Usage by Processor         ; % Time Used ;
+;     Processor 1            ; 100.0%      ;
++----------------------------+-------------+
+
+
 +------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Settings                                                                              ;
+; Analysis & Elaboration Settings                                                                            ;
 +------------------------------------------------------------------+--------------------+--------------------+
 ; Option                                                           ; Setting            ; Default Value      ;
 +------------------------------------------------------------------+--------------------+--------------------+
@@ -142,40 +158,25 @@ https://fpgasoftware.intel.com/eula.
 +------------------------------------------------------------------+--------------------+--------------------+
 
 
-+------------------------------------------+
-; Parallel Compilation                     ;
-+----------------------------+-------------+
-; Processors                 ; Number      ;
-+----------------------------+-------------+
-; Number detected on machine ; 2           ;
-; Maximum allowed            ; 2           ;
-;                            ;             ;
-; Average used               ; 1.00        ;
-; Maximum used               ; 1           ;
-;                            ;             ;
-; Usage by Processor         ; % Time Used ;
-;     Processor 1            ; 100.0%      ;
-+----------------------------+-------------+
-
-
-+-------------------------------+
-; Analysis & Synthesis Messages ;
-+-------------------------------+
++---------------------------------+
+; Analysis & Elaboration Messages ;
++---------------------------------+
 Info: *******************************************************************
-Info: Running Quartus Prime Analysis & Synthesis
+Info: Running Quartus Prime Analysis & Elaboration
     Info: Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition
-    Info: Processing started: Mon Mar 30 20:17:39 2020
-Info: Command: quartus_map --read_settings_files=on --write_settings_files=off BCD -c BCD
+    Info: Processing started: Fri Apr 03 19:35:18 2020
+Info: Command: quartus_map --read_settings_files=on --write_settings_files=off BCD -c BCD --analysis_and_elaboration
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 2 of the 2 processors detected
 Info (12021): Found 1 design units, including 1 entities, in source file bcd.v
     Info (12023): Found entity 1: BCD File: C:/Users/paula nikol/Documents/GitHub/lab04-grupo-14/BCD/BCD.v Line: 1
-Error (10171): Verilog HDL syntax error at testbench.v(1) near end of file ;  expecting "endmodule" File: C:/Users/paula nikol/Documents/GitHub/lab04-grupo-14/BCD/testbench.v Line: 1
-Info (12021): Found 0 design units, including 0 entities, in source file testbench.v
-Error: Quartus Prime Analysis & Synthesis was unsuccessful. 1 error, 1 warning
-    Error: Peak virtual memory: 4704 megabytes
-    Error: Processing ended: Mon Mar 30 20:18:49 2020
-    Error: Elapsed time: 00:01:10
-    Error: Total CPU time (on all processors): 00:00:48
+Info (12021): Found 1 design units, including 1 entities, in source file testbench.v
+    Info (12023): Found entity 1: testbench File: C:/Users/paula nikol/Documents/GitHub/lab04-grupo-14/BCD/testbench.v Line: 3
+Info (12127): Elaborating entity "BCD" for the top level hierarchy
+Info: Quartus Prime Analysis & Elaboration was successful. 0 errors, 1 warning
+    Info: Peak virtual memory: 4705 megabytes
+    Info: Processing ended: Fri Apr 03 19:36:19 2020
+    Info: Elapsed time: 00:01:01
+    Info: Total CPU time (on all processors): 00:00:54
 
 
