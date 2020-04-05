@@ -3,21 +3,25 @@
 module testbench;
 
 reg [15:0] num;
-reg clk;
+reg clk2;
 reg rst;
 
 
 wire [0:6] seg;
 wire [3:0] An;
 
-BCD4DISPLAY uut (.num(num), .clk(clk), .seg(seg), .An(An), .rst(rst));
+BCD4DISPLAY uut (.num(num), 
+                 .clk(clk2), 
+					  .seg(seg), 
+					  .An(An), 
+					  .rst(rst));
 
 initial begin 
-    clk=0;
+    clk2=0;
 	 rst=1;
 	 #10 rst=0;
 	 num=16'h4321;
 	 end
-	 always #1 clk = ~clk;
+	 always #1 clk2 = ~clk2;
 
 endmodule

@@ -4,9 +4,10 @@ module BCD4DISPLAY(input [15:0] num, input clk, output [0:6] seg, output reg [3:
 
 reg [3:0] bcd=0;
 
-BCD uut ( .bcd(bcd), .seg(seg) );
+BCD uut ( .BCD(bcd), .Seg(seg) );
 
 reg [1:0] count=0;
+
 always @(posedge clk) begin
 		if(rst==1) begin
 			count<= 0;

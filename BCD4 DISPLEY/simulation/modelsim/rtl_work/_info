@@ -9,13 +9,13 @@ z2
 cModel Technology
 Z0 dC:/Users/paula nikol/Documents/GitHub/lab04-grupo-14/BCD4 DISPLEY/simulation/modelsim
 vBCD
-Z1 !s110 1586102481
+Z1 !s110 1586128163
 !i10b 1
-!s100 M>l7]Ijn^J92fSSSo;NLg0
-I?0kNDUd^;iYhnPGbXbLAW3
+!s100 ]=j;_4lJmDFoDeVc>STO`3
+I4k_2J9[fYc`?<O@PLa:Vz2
 Z2 VDg1SIo80bB@j0V0VzS_@n1
 R0
-w1586101754
+w1586127134
 8C:/Users/paula nikol/Documents/GitHub/lab04-grupo-14/BCD4 DISPLEY/BCD.v
 FC:/Users/paula nikol/Documents/GitHub/lab04-grupo-14/BCD4 DISPLEY/BCD.v
 L0 1
@@ -23,7 +23,7 @@ Z3 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z4 !s108 1586102480.000000
+Z4 !s108 1586128163.000000
 !s107 C:/Users/paula nikol/Documents/GitHub/lab04-grupo-14/BCD4 DISPLEY/BCD.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/paula nikol/Documents/GitHub/lab04-grupo-14/BCD4 DISPLEY|C:/Users/paula nikol/Documents/GitHub/lab04-grupo-14/BCD4 DISPLEY/BCD.v|
 !i113 1
@@ -32,13 +32,13 @@ Z6 !s92 -vlog01compat -work work {+incdir+C:/Users/paula nikol/Documents/GitHub/
 Z7 tCvgOpt 0
 n@b@c@d
 vBCD4DISPLAY
-!s110 1586102480
+R1
 !i10b 1
-!s100 ?5>iC^<0Yk3JMW62`J35n0
-I`GGi07<kccl;CiRN]AKT93
+!s100 ?iTkQoS1oQFSGOEVA`BoP0
+I]QRh4Xlb=;N0`OjIS5Gm83
 R2
 R0
-w1586102310
+w1586127438
 8C:/Users/paula nikol/Documents/GitHub/lab04-grupo-14/BCD4 DISPLEY/BCD4DISPLAY.v
 FC:/Users/paula nikol/Documents/GitHub/lab04-grupo-14/BCD4 DISPLEY/BCD4DISPLAY.v
 L0 3
@@ -55,13 +55,13 @@ R6
 R7
 n@b@c@d4@d@i@s@p@l@a@y
 vtestbench
-R1
+!s110 1586128164
 !i10b 1
-!s100 9RE90`Je;`c8Z`Uj060<83
-IQR^VQOSNPJRzbO@HaOShR3
+!s100 NFYXLBP1n6]iNz2C7H6dL3
+Ig6[Y^cT4jZ]JUOY2a[m4k2
 R2
 R0
-w1586102106
+w1586128145
 8C:/Users/paula nikol/Documents/GitHub/lab04-grupo-14/BCD4 DISPLEY/testbench.v
 FC:/Users/paula nikol/Documents/GitHub/lab04-grupo-14/BCD4 DISPLEY/testbench.v
 L0 3
@@ -69,7 +69,7 @@ R3
 r1
 !s85 0
 31
-!s108 1586102481.000000
+R4
 !s107 C:/Users/paula nikol/Documents/GitHub/lab04-grupo-14/BCD4 DISPLEY/testbench.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/paula nikol/Documents/GitHub/lab04-grupo-14/BCD4 DISPLEY|C:/Users/paula nikol/Documents/GitHub/lab04-grupo-14/BCD4 DISPLEY/testbench.v|
 !i113 1
