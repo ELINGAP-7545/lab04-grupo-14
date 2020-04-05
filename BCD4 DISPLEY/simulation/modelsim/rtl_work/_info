@@ -1,0 +1,78 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/paula nikol/Documents/GitHub/lab04-grupo-14/BCD4 DISPLEY/simulation/modelsim
+vBCD
+Z1 !s110 1586102481
+!i10b 1
+!s100 M>l7]Ijn^J92fSSSo;NLg0
+I?0kNDUd^;iYhnPGbXbLAW3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1586101754
+8C:/Users/paula nikol/Documents/GitHub/lab04-grupo-14/BCD4 DISPLEY/BCD.v
+FC:/Users/paula nikol/Documents/GitHub/lab04-grupo-14/BCD4 DISPLEY/BCD.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1586102480.000000
+!s107 C:/Users/paula nikol/Documents/GitHub/lab04-grupo-14/BCD4 DISPLEY/BCD.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/paula nikol/Documents/GitHub/lab04-grupo-14/BCD4 DISPLEY|C:/Users/paula nikol/Documents/GitHub/lab04-grupo-14/BCD4 DISPLEY/BCD.v|
+!i113 1
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work {+incdir+C:/Users/paula nikol/Documents/GitHub/lab04-grupo-14/BCD4 DISPLEY}
+Z7 tCvgOpt 0
+n@b@c@d
+vBCD4DISPLAY
+!s110 1586102480
+!i10b 1
+!s100 ?5>iC^<0Yk3JMW62`J35n0
+I`GGi07<kccl;CiRN]AKT93
+R2
+R0
+w1586102310
+8C:/Users/paula nikol/Documents/GitHub/lab04-grupo-14/BCD4 DISPLEY/BCD4DISPLAY.v
+FC:/Users/paula nikol/Documents/GitHub/lab04-grupo-14/BCD4 DISPLEY/BCD4DISPLAY.v
+L0 3
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/paula nikol/Documents/GitHub/lab04-grupo-14/BCD4 DISPLEY/BCD4DISPLAY.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/paula nikol/Documents/GitHub/lab04-grupo-14/BCD4 DISPLEY|C:/Users/paula nikol/Documents/GitHub/lab04-grupo-14/BCD4 DISPLEY/BCD4DISPLAY.v|
+!i113 1
+R5
+R6
+R7
+n@b@c@d4@d@i@s@p@l@a@y
+vtestbench
+R1
+!i10b 1
+!s100 9RE90`Je;`c8Z`Uj060<83
+IQR^VQOSNPJRzbO@HaOShR3
+R2
+R0
+w1586102106
+8C:/Users/paula nikol/Documents/GitHub/lab04-grupo-14/BCD4 DISPLEY/testbench.v
+FC:/Users/paula nikol/Documents/GitHub/lab04-grupo-14/BCD4 DISPLEY/testbench.v
+L0 3
+R3
+r1
+!s85 0
+31
+!s108 1586102481.000000
+!s107 C:/Users/paula nikol/Documents/GitHub/lab04-grupo-14/BCD4 DISPLEY/testbench.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/paula nikol/Documents/GitHub/lab04-grupo-14/BCD4 DISPLEY|C:/Users/paula nikol/Documents/GitHub/lab04-grupo-14/BCD4 DISPLEY/testbench.v|
+!i113 1
+R5
+R6
+R7
