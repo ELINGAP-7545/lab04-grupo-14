@@ -12,48 +12,45 @@
 # 
 # vlog -vlog01compat -work work +incdir+C:/Users/paula\ nikol/Documents/GitHub/lab04-grupo-14/BCD4\ DISPLEY {C:/Users/paula nikol/Documents/GitHub/lab04-grupo-14/BCD4 DISPLEY/BCD4DISPLAY.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 18:09:23 on Apr 05,2020
+# Start time: 22:39:15 on Apr 06,2020
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/paula nikol/Documents/GitHub/lab04-grupo-14/BCD4 DISPLEY" C:/Users/paula nikol/Documents/GitHub/lab04-grupo-14/BCD4 DISPLEY/BCD4DISPLAY.v 
 # -- Compiling module BCD4DISPLAY
 # 
 # Top level modules:
 # 	BCD4DISPLAY
-# End time: 18:09:23 on Apr 05,2020, Elapsed time: 0:00:00
+# End time: 22:39:15 on Apr 06,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/paula\ nikol/Documents/GitHub/lab04-grupo-14/BCD4\ DISPLEY {C:/Users/paula nikol/Documents/GitHub/lab04-grupo-14/BCD4 DISPLEY/BCD.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 18:09:23 on Apr 05,2020
+# Start time: 22:39:15 on Apr 06,2020
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/paula nikol/Documents/GitHub/lab04-grupo-14/BCD4 DISPLEY" C:/Users/paula nikol/Documents/GitHub/lab04-grupo-14/BCD4 DISPLEY/BCD.v 
 # -- Compiling module BCD
 # 
 # Top level modules:
 # 	BCD
-# End time: 18:09:23 on Apr 05,2020, Elapsed time: 0:00:00
+# End time: 22:39:15 on Apr 06,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vlog -vlog01compat -work work +incdir+C:/Users/paula\ nikol/Documents/GitHub/lab04-grupo-14/BCD4\ DISPLEY {C:/Users/paula nikol/Documents/GitHub/lab04-grupo-14/BCD4 DISPLEY/testbench.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 18:09:23 on Apr 05,2020
+# Start time: 22:39:15 on Apr 06,2020
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/paula nikol/Documents/GitHub/lab04-grupo-14/BCD4 DISPLEY" C:/Users/paula nikol/Documents/GitHub/lab04-grupo-14/BCD4 DISPLEY/testbench.v 
 # -- Compiling module testbench
 # 
 # Top level modules:
 # 	testbench
-# End time: 18:09:24 on Apr 05,2020, Elapsed time: 0:00:01
+# End time: 22:39:15 on Apr 06,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs="+acc"  testbench
 # vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs=""+acc"" testbench 
-# Start time: 18:09:24 on Apr 05,2020
+# Start time: 22:39:17 on Apr 06,2020
 # Loading work.testbench
 # Loading work.BCD4DISPLAY
 # Loading work.BCD
-# ** Warning: (vsim-3017) C:/Users/paula nikol/Documents/GitHub/lab04-grupo-14/BCD4 DISPLEY/testbench.v(13): [TFMPC] - Too few port connections. Expected 5, found 4.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/uut File: C:/Users/paula nikol/Documents/GitHub/lab04-grupo-14/BCD4 DISPLEY/BCD4DISPLAY.v
-# ** Warning: (vsim-3722) C:/Users/paula nikol/Documents/GitHub/lab04-grupo-14/BCD4 DISPLEY/testbench.v(13): [TFMPC] - Missing connection for port 'num'.
-# ** Warning: (vsim-3017) C:/Users/paula nikol/Documents/GitHub/lab04-grupo-14/BCD4 DISPLEY/BCD4DISPLAY.v(7): [TFMPC] - Too few port connections. Expected 3, found 2.
+# ** Warning: (vsim-3017) C:/Users/paula nikol/Documents/GitHub/lab04-grupo-14/BCD4 DISPLEY/BCD4DISPLAY.v(6): [TFMPC] - Too few port connections. Expected 3, found 2.
 #    Time: 0 ps  Iteration: 0  Instance: /testbench/uut/uut File: C:/Users/paula nikol/Documents/GitHub/lab04-grupo-14/BCD4 DISPLEY/BCD.v
-# ** Warning: (vsim-3722) C:/Users/paula nikol/Documents/GitHub/lab04-grupo-14/BCD4 DISPLEY/BCD4DISPLAY.v(7): [TFMPC] - Missing connection for port 'An'.
+# ** Warning: (vsim-3722) C:/Users/paula nikol/Documents/GitHub/lab04-grupo-14/BCD4 DISPLEY/BCD4DISPLAY.v(6): [TFMPC] - Missing connection for port 'An'.
 # 
 # add wave *
 # view structure
@@ -63,5 +60,5 @@
 # run -all
 # Break key hit
 # Simulation stop requested.
-# End time: 18:10:34 on Apr 05,2020, Elapsed time: 0:01:10
-# Errors: 0, Warnings: 4
+# End time: 22:49:07 on Apr 06,2020, Elapsed time: 0:09:50
+# Errors: 0, Warnings: 2
