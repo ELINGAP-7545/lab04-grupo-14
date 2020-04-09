@@ -1,5 +1,5 @@
 Flow report for BCD4DISPLAY
-Mon Apr 06 22:38:36 2020
+Wed Apr 08 20:42:23 2020
 Quartus Prime Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition
 
 
@@ -41,7 +41,7 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------------------------------------------------------------+
 ; Flow Summary                                                                     ;
 +------------------------------------+---------------------------------------------+
-; Flow Status                        ; Successful - Mon Apr 06 22:38:36 2020       ;
+; Flow Status                        ; Successful - Wed Apr 08 20:42:22 2020       ;
 ; Quartus Prime Version              ; 19.1.0 Build 670 09/22/2019 SJ Lite Edition ;
 ; Revision Name                      ; BCD4DISPLAY                                 ;
 ; Top-level Entity Name              ; BCD4DISPLAY                                 ;
@@ -67,7 +67,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 04/06/2020 22:37:34 ;
+; Start date & time ; 04/08/2020 20:41:37 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; BCD4DISPLAY         ;
 +-------------------+---------------------+
@@ -78,7 +78,7 @@ https://fpgasoftware.intel.com/eula.
 +--------------------------------------+----------------------------------------+---------------+-------------+-----------------------------------+
 ; Assignment Name                      ; Value                                  ; Default Value ; Entity Name ; Section Id                        ;
 +--------------------------------------+----------------------------------------+---------------+-------------+-----------------------------------+
-; COMPILER_SIGNATURE_ID                ; 193569102779289.158623065114012        ; --            ; --          ; --                                ;
+; COMPILER_SIGNATURE_ID                ; 193569102779289.158639649607776        ; --            ; --          ; --                                ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --          ; testbench                         ;
 ; EDA_GENERATE_FUNCTIONAL_NETLIST      ; Off                                    ; --            ; --          ; eda_board_design_timing           ;
 ; EDA_GENERATE_FUNCTIONAL_NETLIST      ; Off                                    ; --            ; --          ; eda_board_design_boundary_scan    ;
@@ -108,8 +108,8 @@ https://fpgasoftware.intel.com/eula.
 +------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name            ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Elaboration ; 00:01:09     ; 1.0                     ; 4707 MB             ; 00:00:49                           ;
-; Total                  ; 00:01:09     ; --                      ; --                  ; 00:00:49                           ;
+; Analysis & Elaboration ; 00:00:46     ; 1.0                     ; 4707 MB             ; 00:00:43                           ;
+; Total                  ; 00:00:46     ; --                      ; --                  ; 00:00:43                           ;
 +------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 

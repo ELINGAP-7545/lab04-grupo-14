@@ -9,7 +9,7 @@ z2
 cModel Technology
 Z0 dC:/Users/paula nikol/Documents/GitHub/lab04-grupo-14/BCD4 DISPLEY/simulation/modelsim
 vBCD
-Z1 !s110 1586230755
+Z1 !s110 1586396613
 !i10b 1
 !s100 ]=j;_4lJmDFoDeVc>STO`3
 I4k_2J9[fYc`?<O@PLa:Vz2
@@ -23,7 +23,7 @@ Z3 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z4 !s108 1586230755.000000
+Z4 !s108 1586396612.000000
 !s107 C:/Users/paula nikol/Documents/GitHub/lab04-grupo-14/BCD4 DISPLEY/BCD.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/paula nikol/Documents/GitHub/lab04-grupo-14/BCD4 DISPLEY|C:/Users/paula nikol/Documents/GitHub/lab04-grupo-14/BCD4 DISPLEY/BCD.v|
 !i113 1
@@ -32,7 +32,7 @@ Z6 !s92 -vlog01compat -work work {+incdir+C:/Users/paula nikol/Documents/GitHub/
 Z7 tCvgOpt 0
 n@b@c@d
 vBCD4DISPLAY
-R1
+!s110 1586396612
 !i10b 1
 !s100 W:<CGoG]8^LaAIEd1mjH13
 Ie1khHjCjDoEHdLSE]1_cR3
@@ -69,7 +69,7 @@ R3
 r1
 !s85 0
 31
-R4
+!s108 1586396613.000000
 !s107 C:/Users/paula nikol/Documents/GitHub/lab04-grupo-14/BCD4 DISPLEY/testbench.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/paula nikol/Documents/GitHub/lab04-grupo-14/BCD4 DISPLEY|C:/Users/paula nikol/Documents/GitHub/lab04-grupo-14/BCD4 DISPLEY/testbench.v|
 !i113 1
